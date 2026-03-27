@@ -1,0 +1,26 @@
+{
+  "name": "jolt-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.18.0",
+    "@google/generative-ai": "^0.24.1",
+    "@neondatabase/serverless": "^1.0.2",
+    "axios": "^1.13.3",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "drizzle-kit": "^0.31.7",
+    "drizzle-orm": "^0.44.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "puppeteer": "^24.35.0",
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.3",
+    "xlsx": "^0.18.5"
+  }
+}
