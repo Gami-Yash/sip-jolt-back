@@ -18,7 +18,7 @@ import {
   getRestrictedResponse,
   getBrandResponse,
   logSecurityEvent,
-} from '../../frontend/src/lib/security.js';
+} from '../frontend/src/lib/security.js';
 import { aiChatLimiter } from './middleware/rateLimiter.js';
 import { ConversationAuditLogger } from './services/conversationAuditLogger.js';
 import { requireAuth } from '../shared/middleware/rbac.js';
