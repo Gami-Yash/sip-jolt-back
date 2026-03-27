@@ -9,7 +9,7 @@
 
 import express from 'express';
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from '@google/generative-ai';
-import { buildContextualPrompt, ROLE_SPECIFIC_KNOWLEDGE } from '../../frontend/src/lib/knowledge_base.js';
+import { buildContextualPrompt, ROLE_SPECIFIC_KNOWLEDGE } from '../frontend/src/lib/knowledge_base.js';
 import {
   SECURITY_SYSTEM_PROMPT,
   LANDLORD_SAFE_KNOWLEDGE,
